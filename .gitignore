@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package.json
+package-lock.json
+
+# Claude Code
+.claude/
+
+# Backups & dev files
+index - 01.html
+index_backup_before_marquee_hover.html
+index_backup_integral.html
+portfolio_v001_clean.html
+
+# Screenshots & dev tools
+temporary screenshots/
+assets/screenshots/
+screenshot.mjs
+screenshot-ipad.mjs
+screenshot-iphone.mjs
+serve.mjs
+CLAUDE.md
+Headlines.webp
+Screenshot*.png
+
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dropbox
+.dropbox
+Icon?

@@ -281,7 +281,7 @@
 
   .hero-sub {
     position: absolute;
-    top: min(58.6vh, 780px);
+    top: clamp(160px, calc(100svh - 530px), min(58.6vh, 780px));
     right: 15.6vw;
     text-align: right;
     z-index: 10;
@@ -1118,6 +1118,7 @@
     }
     .insights-col { width: 100%; }
   }
+
 </style>
 </head>
 <body>
